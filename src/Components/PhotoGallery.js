@@ -1,6 +1,6 @@
 //Stateful component -> class component
 import React from 'react';
-import NotFound from './NotFound';
+import NoMatches from './NoMatches';
 import Photo from './Photo';
 
 const PhotoGallery = ({ data }) => {
@@ -20,7 +20,7 @@ const PhotoGallery = ({ data }) => {
         return (
             <div className="photo-container">  
                 <ul>
-                    <NotFound />
+                    <NoMatches />
                 </ul>
             </div> 
         );

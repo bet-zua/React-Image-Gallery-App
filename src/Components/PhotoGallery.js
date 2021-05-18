@@ -12,7 +12,7 @@ const PhotoGallery = ({ data }) => {
         let images = photos.map( img => <Photo url={`https://live.staticflickr.com/${img.server}/${img.id}_${img.secret}_q.jpg`} key={img.id} /> );
         return (
             <div className="photo-container">  
-                <h2>Results</h2>
+                <h2>✨ Results ✨</h2>
                 <ul> { images } </ul>
             </div> 
         );

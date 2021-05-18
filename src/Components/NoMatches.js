@@ -1,6 +1,6 @@
-//Stateless component -> class component
 import React from 'react';
 
+/* Displays a No Matches Found error page */
 const NoMatches = () => {
     return (
         <li className="not-found">

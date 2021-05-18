@@ -1,6 +1,6 @@
-//Stateful component -> class component
 import React from 'react';
 
+/* Displays an image from the results*/
 const Photo = ({ url }) => {
     return (
         <li>

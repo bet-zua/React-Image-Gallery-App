@@ -1,10 +1,10 @@
-//Stateless component -> functional component
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
+/* Displays links to three categories */
 const Nav = () => {
     return (
-        <nav class="main-nav">
+        <nav className="main-nav">
             <ul>
                 <li><NavLink to='/cats'>Cats</NavLink></li>
                 <li><NavLink to='/dogs'>Dogs</NavLink></li>

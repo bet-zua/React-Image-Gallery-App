@@ -1,10 +1,9 @@
-//Stateful component -> class component
 import React, { Component } from 'react';
 import { withRouter } from "react-router";
 
+/* Displays search bar and handles form submission */
 class SearchForm extends Component {
   
-  //is internal state initialization required? is it good practice
   state = {
     searchText: ''
   }
@@ -20,8 +19,6 @@ class SearchForm extends Component {
     e.currentTarget.reset();
   }
   
-  //componentDidUpdate
-
   render() {  
     return (
       <form className="search-form" onSubmit={this.handleSubmit} >
@@ -42,6 +39,4 @@ class SearchForm extends Component {
   }
 }
 
-//is history working? check line 18
-//
 export default withRouter(SearchForm);

@@ -1,7 +1,10 @@
+/*updated background-colors, border-radius, box-shadows, and font*/
+
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: #3f4850;
+  font-family: 'Monospace', monospace;
+  color: #ffffff;
+  background-color: #4d4fbb;
 }
 
 h2 {
@@ -27,7 +30,7 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
+  background-color: rgb(142, 92, 255);
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -39,7 +42,7 @@ input {
   width: 100%;
   background-color: #edeff0;
   padding: 10px 15px;
-  border: 3px solid #d7dbdf;
+  border: 3px solid #afd7ff;
   border-right: none;
   border-radius: 0.35em 0 0 0.35em;
   outline: none;
@@ -52,7 +55,7 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background: rgb(142, 92, 255);
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -61,7 +64,7 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #3a0d6e;
 }
 
 .photo-container ul {
@@ -78,7 +81,7 @@ input {
   overflow: hidden;
   margin-bottom: 15px;
   border-radius: 5%; 
-  box-shadow: rgb(142, 92, 255) 0px 0px 10px 2px;
+  box-shadow: rgb(92, 236, 255) 0px 0px 10px 2px;
 }
 
 .photo-container ul img {

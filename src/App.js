@@ -99,9 +99,9 @@ export default class App extends Component {
                   : <PhotoGallery data={search} />
                 }
             </Route>
-            <Route exact path='/cats' render={ () => <PhotoGallery data={cats} />} />
-            <Route exact path='/dogs' render={ () => <PhotoGallery data={dogs} />} />
-            <Route exact path='/computers' render={ () => <PhotoGallery data={computers} />} />
+            <Route path='/cats' render={ () => <PhotoGallery data={cats} />} />
+            <Route path='/dogs' render={ () => <PhotoGallery data={dogs} />} />
+            <Route path='/computers' render={ () => <PhotoGallery data={computers} />} />
             <Route component={NotFound} />
           </Switch>   
         </div>
